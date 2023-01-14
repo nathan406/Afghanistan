@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/whats-happening.css">
+    <title>What's Happening Today</title>
+</head>
+<body>
+    <h1>Country: Afghanistan</h1>
+    <div class="flag-city">
+        <div>
+            <img src="Assets/images/Afghanistan.png" class="flag" alt="">
+        </div>
+        
+        <div>
+            <label for="cities">Cities:</label>
+            <select id="cities">
+                <option>Balkh</option>
+                <option>Bamyan</option>
+                <option>Farah</option>
+                <option>Faryab</option>
+                <option>Ghazni</option>
+                <option>Ghor</option>
+                <option>Helmand</option>
+                <option>Herat</option>
+                <option>Jowzjan</option>
+                <option>Kabul</option>
+                <option>Kandahar</option>
+                <option>Kapisa</option>
+                <option>Khost</option>
+                <option>Kunar</option>
+                <option>Kunduz</option>
+                <option>Laghman</option>
+                <option>Logar</option>
+                <option>Maidan Wardak</option>
+                <option>Nangarhar</option>
+                <option>Nimruz</option>
+                <option>Nuristan</option>
+                <option>Paktia</option>
+                <option>Paktika</option>
+                <option>Panjshir</option>
+                <option>Parwan</option>
+                <option>Samangan</option>
+                <option>Sar-e Pol</option>
+                <option>Takhar</option>
+                <option>Urozgan</option>
+                <option>Zabul</option> 
+            </select>
+        </div>
+        
+    </div>
+
+    <div>
+        <p> Show <select onchange="updateTable(this.value)">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select> entries
+        </p> 
+        
+        <table id="myTable">
+        <tr class="first-row">
+            <td>Accommodations</td>
+            <td>Doom Tourism</td>
+            <td>Ecotourism</td>
+            <td>Entertainment</td>
+            <td>Environmental</td>
+            
+        </tr>
+        <tr>
+            <td>Adventure 303</td>
+            <td>Ethnic 340</td>
+            <td>Events 020</td>
+            <td>Exercise 123</td>
+            <td>Food Services 102</td>
+            
+        </tr>
+        <tr>
+            <td>Art Heritage  001</td>
+            <td>Health Medical Related  023</td>
+            <td>Marine Tourism  004</td>
+            <td>Nature based  010</td>
+            <td>Outdoor  100</td>
+            
+        </tr>
+        <tr>
+            <td>Attractions  012</td>
+            <td>Recreations 020</td>
+            <td>Pro Poor  030</td>
+            <td>Scientific Expenditions 150</td>
+            <td>Sea based 004</td>
+            
+        </tr>
+        <tr>
+            <td>Creative  012</td>
+            <td>Sex Tourism  120</td>
+            <td>Shoppping  102</td>
+            <td>Sightseeing 321</td>
+            <td>Souveniring  230</td>
+            
+        </tr>
+        <tr>
+            <td>Cultural 389</td>
+            <td>Sports  670</td>
+            <td>Transportation  097</td>
+            <td>Travel Trade 790</td>
+            <td>Unexpected Surprises 145</td>
+            
+        </tr>
+        <script src="Assets/js/file.js"></script>
+        </table>
+
+    </div>
+</body>
+
+<footer>
+    <p class="footer-text">© 7Million Tourism Related Jobs 2020</p>
+</footer>
+
+</html>

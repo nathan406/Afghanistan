@@ -1,0 +1,19 @@
+
+WORDPRESS JOB OFFER
+At https://7millionjobs.com are 4 options. Select any option then select any location. Near footer is HTML table and at bottom right it says "What's Happening Today". Clicking that link must take you to a page such as https://7millionjobs.com/video-samples/ which is only a demo/prototype/mockup for Cambodia. The official name for that page will be "What's Happening Today" and we can put it into https://whatshappeningtoday.7millionjobs.com
+
+You will display the Country Flag for each location seen in the index page. You will provide a SEARCH box so cities in that country can be selected. Perhaps dropdown menu. 
+
+Echo the dropdown list of locations, in alphbetical order, onto the page with the Flag of the country and the Name of the Country. Title of page is always WHAT'S HAPPENING TODAY.
+ 
+On the page you see a TablePress plugin displaying about 31 categories. This is where you start to discover What's Happening Today. Adjacent to each category will appear a 3digits number. Up to 3 digits. Those digits show how many activities are happening today in that category in that city. So you can quickly look at the numbers to determine which category you should select first. 
+ 
+ The Docs for this plugin show a sample and one of the samples counts the number of videos in each category. You need to put that number in each one of those 31 activities in each city. Here is the plugin: https://wordpress.org/plugins/all-in-one-video-gallery/
+ 
+ So if I am interested in Lahore, Pakistan https://7millionjobs.com/country-details/?country_id=22 then I will see the PK flag on the WHATS HAPPENING TODAY then those list of 31 activities. I can select "Adventure" if it has any digits showing how many adventures are available today. When I click the link you will code in the TablePress plugin, it takes me to a video gallery showing me all videos in Lahore in the Adventure category. Of course all of this is dynamic from the DB. So in the PK page of the website you will code the link so it operates when someone clicks onto "What's Happening Today". You will show me how it's done via your MP4 so I can assist you adding countries for other Continents. For now we will use any random videos just to verify everything works, and then I can take over. 
+ 
+ For U/I & U/X you should suggest how you think it should be coded.  MOST locations worldwide are not coded yet so concentrate and focus your skills in ASIA
+ 
+Info about the current DB structure is here: https://latest.asianhighway26.com/modifications
+SMS/Telegram/WhatsApp +855 815 77709
+
